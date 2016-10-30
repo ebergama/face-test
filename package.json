@@ -1,0 +1,28 @@
+{
+  "name": "face-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "4.5.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebergama/face-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebergama/face-test/issues"
+  },
+  "homepage": "https://github.com/ebergama/face-test#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemailer": "^1.11.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
