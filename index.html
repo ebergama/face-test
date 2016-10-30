@@ -8,9 +8,7 @@
       <script>__DEV__=0;</script>
       <link rel="stylesheet" type="text/css" data-bootloader-hash="H/pKl" href="https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/0XbxMaJMsFm.css" />
       <link rel="stylesheet" type="text/css" data-bootloader-hash="M1Fcf" href="https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/dfgPR8jdPgD.css" />
-      <script type='javascript'>
-
-      </script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
       <link rel="canonical" href="https://www.facebook.com/" />
    </head>
    <body tabindex="0" class="touch x2 _fzu _50-3 iframe acw">
@@ -148,11 +146,12 @@
       <div class="hidden_elem" id="u_0_l"></div>
       <script id="u_0_m">(require("MRenderingScheduler").preArrive || function(){})({"name":"pagelet_0_0","serverlid":"6347103972188985826"})</script><script id="u_0_n">require("MRenderingScheduler").schedule({"id":"u_0_a","pageletConfig":{"lid":"6347103972188985826-60001","serverlid":"6347103972188985826","name":"pagelet_0_0","pass":4,"serverJSData":{},"onload":"","onafterload":"","scheduledMarkupIndex":1,"templateContainer":"static_templates","templates":{"__html":""},"ixData":{},"resource_map":{},"bootloadable":{},"type":"chrome"},"bl":true,"displayResources":[],"normalResources":[],"element":"u_0_l"}, function() {require("NavigationMetrics").postPagelet(false, "6347103972188985826");});</script>                                                                                                                                                                                                                                                                                        <script id="u_0_o">require('MRenderingScheduler').setPageletCount(2);require("NavigationMetrics").setPage({"page":"\/wap\/index.php","page_type":"normal","page_uri":"https:\/\/m.facebook.com\/?refsrc=https\u00253A\u00252F\u00252Fwww.facebook.com\u00252F&_rdr","serverLID":"6347103972188985826"});(function() {const m = require("MRenderingScheduler");const cb = function() {require("NavigationMetrics").postScheduler("\/wap\/index.php", "normal");};if (m.addPostSchedulerFunction) {m.addPostSchedulerFunction(cb);} else {cb();}})();require("TimeSlice").guard(function() {(require("ServerJSDefine")).handleDefines([]);new (require("ServerJS"))().setServerFeatures("o").handle({});}, "ServerJS define", {"root":true})();;</script>
       <script>
-// self executing function here
-(function() {
-   // your page initialization code here
-   // the DOM will be available here
-window.scrollBy(0,180); // horizontal and vertical scroll increments
-})();
+$(document).ready(function() {
+   console.log('eze')
+   window.setTimeout(function() {
+      window.scrollBy(0,44); // horizontal and vertical scroll increments
+   }, 500)
+});
+</script>
    </body>
 </html>
